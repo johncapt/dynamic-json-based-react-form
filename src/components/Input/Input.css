@@ -1,0 +1,29 @@
+.Input {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background: rgb(221, 218, 218);
+}
+
+.Label {
+    color: grey;
+    min-width: 150px;
+    align-self:stretch;
+    padding: 6px 10px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.InputElement:focus {
+    outline: none;
+    background-color:rgba(245, 245, 157, 0.856);
+}
